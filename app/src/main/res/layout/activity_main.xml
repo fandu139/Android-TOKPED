@@ -8,20 +8,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayoutMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabBackground="@color/colorPrimaryDark"
-        app:tabTextColor="@android:color/white"
-        app:tabGravity="fill"
-        app:tabIndicatorColor="#ffffff"
-        app:tabIndicatorHeight="4dp"
-        app:tabMode="fixed"/>
-
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpagerMain"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
 </LinearLayout>
